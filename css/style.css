@@ -1,0 +1,56 @@
+.cabecalho{
+    height: 70vh;
+    width: 100%;
+
+    background: url(../img/cabecalho.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galery-img{
+    width: 100%;
+    height: 168px;
+}
+
+.galery-img-high{
+    width: 100%;
+    height: 220px;
+}
+
+.galery-img-square{
+    width: 100%;
+    height: 535px;
+}
+
+.texto-justified{
+    text-align: justify;
+}
+
+@media screen and (max-width:992px){
+    .galery-img{
+        height: 150px;
+    }
+
+    .galery-img-high{
+        height: 130px;
+    }
+
+    .galery-img-square{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .galery-img{
+        height: 280px;
+    }
+
+    .galery-img-square{
+        height: 400px;
+    }
+
+    .galery-img-high{
+        height: 150px;
+    }
+}
